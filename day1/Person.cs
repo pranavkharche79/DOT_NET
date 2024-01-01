@@ -1,7 +1,6 @@
 namespace beans;
 
-public class Person
-{
+public class Person{
     private int pid;
     private string pname;
     private int qty;
@@ -10,37 +9,31 @@ public class Person
     public Person()
     {
         Console.WriteLine("inside default cons");
-        pname = "";
     }
 
-    public Person(int pid, string pname, int qty, double price)
-    {
+    public Person(int pid,string pname,int qty,double price){
         Console.WriteLine("inside para cons");
-        this.pid = pid;
-        this.pname = pname;
-        this.qty = qty;
-        this.price = price;
+        this.pid=pid;
+        this.pname=pname;
+        this.qty=qty;
+        this.price=price;
     }
 
-    public int Pid
-    {
-        get; set;
+    public int Pid {
+        get;set;
     }
-    public string Pname
-    {
-        get; set;
+    public string Pname{
+        get;set;
     }
-    public int Qty
-    {
-        get; set;
+    public int Qty{
+        get;set;
     }
-    public double Price
-    {
-        get; set;
+    public double Price{
+        get;set;
     }
 
     public override string ToString()
     {
-        return "Pid= " + pid + " Pname= " + pname + " Qty= " + qty + " Price= " + price + "\n";
+        return "Pid= "+pid+" Pname= "+pname+" Qty= "+qty+" Price= "+price+"\n"; 
     }
 }
