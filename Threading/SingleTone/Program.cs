@@ -3,10 +3,12 @@ using SingleTone.Services;
 
 
 var builder = WebApplication.CreateBuilder(args);
-// builder.Services.AddSingleton<IHelloWorldService, HelloWorldService>();
-// builder.Services.AddSingleton<IProductCatalogService, ProductCatalogService>();
-builder.Services.AddTransient<IHelloWorldService, HelloWorldService>();
-builder.Services.AddTransient<IProductCatalogService, ProductCatalogService>();
+builder.Services.AddSingleton<IHelloWorldService, HelloWorldService>();
+builder.Services.AddSingleton<IProductCatalogService, ProductCatalogService>();
+// builder.Services.AddTransient<IHelloWorldService, HelloWorldService>();
+// builder.Services.AddTransient<IProductCatalogService, ProductCatalogService>();
+// builder.Services.AddScoped<IHelloWorldService, HelloWorldService>();
+// builder.Services.AddScoped<IProductCatalogService, ProductCatalogService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

@@ -28,3 +28,4 @@ C:\Users\IET\Pictures\DOT_NET\Threading\SingleTone\obj\Debug\net8.0\refint\Singl
 C:\Users\IET\Pictures\DOT_NET\Threading\SingleTone\obj\Debug\net8.0\SingleTone.pdb
 C:\Users\IET\Pictures\DOT_NET\Threading\SingleTone\obj\Debug\net8.0\SingleTone.genruntimeconfig.cache
 C:\Users\IET\Pictures\DOT_NET\Threading\SingleTone\obj\Debug\net8.0\ref\SingleTone.dll
+C:\Users\IET\Pictures\DOT_NET\Threading\SingleTone\obj\Debug\net8.0\SingleTone.sourcelink.json
